@@ -3,10 +3,298 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Module 3 Final Project</title>
+    <title>Treact — Beautiful React Templates</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Module 3 Final Project</h1>
+
+    <!-- NAV -->
+    <header class="nav">
+      <div class="container nav__inner">
+        <a href="#" class="nav__logo">Treact</a>
+        <nav class="nav__links">
+          <a href="#">About</a>
+          <a href="#">Blog</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#">Contact Us</a>
+          <a href="#" class="nav__login">Login</a>
+          <a href="#" class="btn btn--sm">Sign Up</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <h1>Beautiful React Templates for&nbsp;you</h1>
+          <p>Our templates are easy to setup, understand and customise. Fully modular components let you build any page you want.</p>
+          <a href="#" class="btn btn--lg">Get Started</a>
+          <div class="hero__logos">
+            <span>Amazon</span>
+            <span>Google</span>
+            <span>Netflix</span>
+            <span>Microsoft</span>
+            <span>Uber</span>
+          </div>
+        </div>
+        <div class="hero__image">
+          <div class="hero__mockup">
+            <div class="mockup__bar"></div>
+            <div class="mockup__screen">
+              <div class="mockup__line"></div>
+              <div class="mockup__line mockup__line--short"></div>
+              <div class="mockup__block"></div>
+              <div class="mockup__line"></div>
+              <div class="mockup__line mockup__line--short"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+      <div class="container">
+        <p class="section__eyebrow">Features</p>
+        <h2>We Have Amazing Service</h2>
+        <p class="section__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        <div class="features__grid">
+          <div class="feature-card">
+            <div class="feature-card__icon">🔒</div>
+            <h3>Secure</h3>
+            <p>Lorem ipsum donor sit amet disconvallis quis ante. Sit amet interdum lorem.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">🕐</div>
+            <h3>24/7 Support</h3>
+            <p>Lorem ipsum donor sit amet disconvallis quis ante. Sit amet interdum lorem.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">⚙️</div>
+            <h3>Customizable</h3>
+            <p>Lorem ipsum donor sit amet disconvallis quis ante. Sit amet interdum lorem.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">✅</div>
+            <h3>Reliable</h3>
+            <p>Lorem ipsum donor sit amet disconvallis quis ante. Sit amet interdum lorem.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">⚡</div>
+            <h3>Fast</h3>
+            <p>Lorem ipsum donor sit amet disconvallis quis ante. Sit amet interdum lorem.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">😊</div>
+            <h3>Easy</h3>
+            <p>Lorem ipsum donor sit amet disconvallis quis ante. Sit amet interdum lorem.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUALITY WORK -->
+    <section class="quality">
+      <div class="container quality__inner">
+        <div class="quality__screenshots">
+          <div class="screenshot screenshot--back"></div>
+          <div class="screenshot screenshot--front"></div>
+        </div>
+        <div class="quality__text">
+          <p class="section__eyebrow">Quality Work</p>
+          <h2>Designed &amp; Developed by Professionals</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          <a href="#" class="btn btn--outline">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEPS -->
+    <section class="steps">
+      <div class="container">
+        <p class="section__eyebrow">Steps</p>
+        <h2>Easy to Get Started</h2>
+        <p class="section__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        <div class="steps__grid">
+          <div class="step-card">
+            <div class="step-card__number">1</div>
+            <h3>Register</h3>
+            <p>Create an account using your Google or Facebook profile in a single click.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-card__number">2</div>
+            <h3>Download</h3>
+            <p>Browse our marketplace and choose the template that fits your needs.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-card__number">3</div>
+            <h3>Run</h3>
+            <p>Follow the simple setup guide, customize it, and launch your project.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VALUES -->
+    <section class="values">
+      <div class="container values__inner">
+        <div class="values__text">
+          <p class="section__eyebrow">Values</p>
+          <h2>We Always Abide by Our Principles</h2>
+          <div class="value-item">
+            <div class="value-item__icon">💰</div>
+            <div>
+              <h3>Affordable</h3>
+              <p>We believe quality products should be accessible to everyone, regardless of budget size.</p>
+            </div>
+          </div>
+          <div class="value-item">
+            <div class="value-item__icon">🏆</div>
+            <div>
+              <h3>Professional</h3>
+              <p>Our team consists of seasoned professionals committed to delivering excellence in every project.</p>
+            </div>
+          </div>
+          <a href="#" class="btn btn--outline">Learn More</a>
+        </div>
+        <div class="values__image">
+          <div class="values__mockup"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <p class="section__eyebrow">Pricing</p>
+        <h2>Flexible Plans</h2>
+        <p class="section__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        <div class="pricing__grid">
+          <div class="pricing-card">
+            <h3>Personal</h3>
+            <p class="pricing-card__desc">Perfect for individuals and freelancers.</p>
+            <div class="pricing-card__price"><span>$</span>17.99<small>/mo</small></div>
+            <ul class="pricing-card__features">
+              <li>✓ 5 Users</li>
+              <li>✓ 20GB Storage</li>
+              <li>✓ Unlimited Bandwidth</li>
+              <li>✓ Priority Support</li>
+              <li class="disabled">✗ Custom Domain</li>
+            </ul>
+            <a href="#" class="btn btn--full">Buy Now</a>
+          </div>
+          <div class="pricing-card pricing-card--featured">
+            <h3>Business</h3>
+            <p class="pricing-card__desc">Ideal for small to medium businesses.</p>
+            <div class="pricing-card__price"><span>$</span>37.99<small>/mo</small></div>
+            <ul class="pricing-card__features">
+              <li>✓ 25 Users</li>
+              <li>✓ 100GB Storage</li>
+              <li>✓ Unlimited Bandwidth</li>
+              <li>✓ Priority Support</li>
+              <li>✓ Custom Domain</li>
+            </ul>
+            <a href="#" class="btn btn--full btn--white">Buy Now</a>
+          </div>
+          <div class="pricing-card">
+            <h3>Enterprise</h3>
+            <p class="pricing-card__desc">Built for large-scale organisations.</p>
+            <div class="pricing-card__price"><span>$</span>57.99<small>/mo</small></div>
+            <ul class="pricing-card__features">
+              <li>✓ Unlimited Users</li>
+              <li>✓ 500GB Storage</li>
+              <li>✓ Unlimited Bandwidth</li>
+              <li>✓ Dedicated Support</li>
+              <li>✓ Custom Domain</li>
+            </ul>
+            <a href="#" class="btn btn--full">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+      <div class="container">
+        <p class="section__eyebrow">Testimonials</p>
+        <h2>Our Clients Love Us</h2>
+        <div class="testimonial-card">
+          <p class="testimonial-card__quote">"Amazing User Experience. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">CH</div>
+            <div>
+              <strong>Charlotte Hale</strong>
+              <p>Director, Delos Inc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container cta__inner">
+        <h2>Lets Try Our Service For Free</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        <div class="cta__buttons">
+          <a href="#" class="btn btn--lg btn--white">Get Started</a>
+          <a href="#" class="btn btn--lg btn--outline-white">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <a href="#" class="nav__logo">Treact</a>
+          <p>A collection of beautiful, modular React templates for your next project.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Main</h4>
+          <a href="#">Blog</a>
+          <a href="#">FAQs</a>
+          <a href="#">Support</a>
+          <a href="#">About Us</a>
+        </div>
+        <div class="footer__col">
+          <h4>Product</h4>
+          <a href="#">Log In</a>
+          <a href="#">Personal</a>
+          <a href="#">Business</a>
+          <a href="#">Team</a>
+        </div>
+        <div class="footer__col">
+          <h4>Press</h4>
+          <a href="#">Logos</a>
+          <a href="#">Events</a>
+          <a href="#">Stories</a>
+          <a href="#">Office</a>
+        </div>
+        <div class="footer__col">
+          <h4>Team</h4>
+          <a href="#">Career</a>
+          <a href="#">Founders</a>
+          <a href="#">Culture</a>
+          <a href="#">Onboarding</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container footer__legal">
+          <span>© 2018 Treact Inc. All Rights Reserved.</span>
+          <div class="footer__legal-links">
+            <a href="#">GDPR</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Disclaimer</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
   </body>
 </html>
