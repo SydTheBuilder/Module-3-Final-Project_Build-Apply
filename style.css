@@ -269,10 +269,32 @@ section {
 }
 
 .hero__logos-row span {
-  font-size: 14px;
-  font-weight: 700;
   color: var(--text-light);
-  letter-spacing: 0.03em;
+  opacity: 0.75;
+}
+
+.logo-fortune {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.logo-fastcompany {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 13px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.logo-natgeo {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 /* ── HERO DASHBOARD GRAPHIC ── */
