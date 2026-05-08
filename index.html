@@ -46,14 +46,60 @@
           </div>
         </div>
         <div class="hero__image">
-          <div class="hero__mockup">
-            <div class="mockup__bar"></div>
-            <div class="mockup__screen">
-              <div class="mockup__line"></div>
-              <div class="mockup__line mockup__line--short"></div>
-              <div class="mockup__block"></div>
-              <div class="mockup__line"></div>
-              <div class="mockup__line mockup__line--short"></div>
+          <div class="dash-mockup">
+            <div class="dash-mockup__chrome">
+              <span class="dash-dot dash-dot--red"></span>
+              <span class="dash-dot dash-dot--yellow"></span>
+              <span class="dash-dot dash-dot--green"></span>
+              <div class="dash-mockup__url"></div>
+            </div>
+            <div class="dash-mockup__body">
+              <div class="dash-sidebar">
+                <div class="dash-sidebar__avatar"></div>
+                <div class="dash-nav__item dash-nav__item--active"></div>
+                <div class="dash-nav__item"></div>
+                <div class="dash-nav__item"></div>
+                <div class="dash-nav__item"></div>
+              </div>
+              <div class="dash-main">
+                <div class="dash-stats">
+                  <div class="dash-stat">
+                    <div class="dash-stat__num"></div>
+                    <div class="dash-stat__label"></div>
+                  </div>
+                  <div class="dash-stat">
+                    <div class="dash-stat__num"></div>
+                    <div class="dash-stat__label"></div>
+                  </div>
+                  <div class="dash-stat dash-stat--highlight">
+                    <div class="dash-stat__num"></div>
+                    <div class="dash-stat__label"></div>
+                  </div>
+                </div>
+                <div class="dash-chart">
+                  <div class="dash-bar" style="--h:55%"></div>
+                  <div class="dash-bar" style="--h:80%"></div>
+                  <div class="dash-bar" style="--h:45%"></div>
+                  <div class="dash-bar dash-bar--accent" style="--h:90%"></div>
+                  <div class="dash-bar" style="--h:70%"></div>
+                  <div class="dash-bar" style="--h:60%"></div>
+                  <div class="dash-bar dash-bar--accent" style="--h:85%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="dash-badge dash-badge--top">
+              <div class="dash-badge__icon">🚀</div>
+              <div class="dash-badge__text">
+                <strong>1,200+</strong>
+                <span>Templates</span>
+              </div>
+            </div>
+            <div class="dash-badge dash-badge--bottom">
+              <div class="dash-badge__icon">⭐</div>
+              <div class="dash-badge__text">
+                <strong>4.9 / 5</strong>
+                <span>Rating</span>
+              </div>
             </div>
           </div>
         </div>
@@ -117,8 +163,44 @@
     <section class="quality">
       <div class="container quality__inner">
         <div class="quality__screenshots">
-          <div class="screenshot screenshot--back"></div>
-          <div class="screenshot screenshot--front"></div>
+          <div class="qs-card qs-card--back">
+            <div class="qs-card__topbar"></div>
+            <div class="qs-row">
+              <div class="qs-avatar"></div>
+              <div class="qs-lines">
+                <div class="qs-line"></div>
+                <div class="qs-line qs-line--short"></div>
+              </div>
+            </div>
+            <div class="qs-line"></div>
+            <div class="qs-line qs-line--short"></div>
+            <div class="qs-chips">
+              <div class="qs-chip qs-chip--purple"></div>
+              <div class="qs-chip"></div>
+              <div class="qs-chip"></div>
+            </div>
+          </div>
+          <div class="qs-card qs-card--front">
+            <p class="qs-card__label">Performance</p>
+            <div class="qs-card__big-num">98<span>%</span></div>
+            <div class="qs-progress-track">
+              <div class="qs-progress-fill"></div>
+            </div>
+            <div class="qs-mini-stats">
+              <div class="qs-mini-stat">
+                <div class="qs-mini-stat__num"></div>
+                <div class="qs-mini-stat__bar"></div>
+              </div>
+              <div class="qs-mini-stat">
+                <div class="qs-mini-stat__num qs-mini-stat__num--accent"></div>
+                <div class="qs-mini-stat__bar qs-mini-stat__bar--accent"></div>
+              </div>
+              <div class="qs-mini-stat">
+                <div class="qs-mini-stat__num"></div>
+                <div class="qs-mini-stat__bar"></div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="quality__text">
           <p class="section__eyebrow">Quality Work</p>
@@ -178,7 +260,63 @@
           <a href="#" class="btn btn--outline">Learn More</a>
         </div>
         <div class="values__image">
-          <div class="values__mockup"></div>
+          <svg class="owl-svg" viewBox="0 0 280 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Soft glow -->
+            <ellipse cx="140" cy="310" rx="90" ry="14" fill="rgba(100,21,255,0.08)"/>
+            <!-- Branch -->
+            <rect x="20" y="278" width="240" height="20" rx="10" fill="#7c5230"/>
+            <rect x="45" y="296" width="14" height="30" rx="6" fill="#5a3820"/>
+            <rect x="220" y="296" width="14" height="30" rx="6" fill="#5a3820"/>
+            <!-- Left wing -->
+            <path d="M 78 178 Q 42 215 55 268 Q 74 248 98 256 Z" fill="#1a2d4a"/>
+            <!-- Right wing -->
+            <path d="M 202 178 Q 238 215 225 268 Q 206 248 182 256 Z" fill="#1a2d4a"/>
+            <!-- Body -->
+            <ellipse cx="140" cy="208" rx="70" ry="80" fill="#243e63"/>
+            <!-- Belly -->
+            <ellipse cx="140" cy="222" rx="43" ry="57" fill="#f0edff"/>
+            <!-- Feather chevrons -->
+            <path d="M 114 198 Q 140 188 166 198 Q 140 208 114 198Z" fill="#d8d0f5"/>
+            <path d="M 112 218 Q 140 208 168 218 Q 140 228 112 218Z" fill="#d8d0f5"/>
+            <path d="M 112 238 Q 140 228 168 238 Q 140 248 112 238Z" fill="#d8d0f5"/>
+            <path d="M 114 257 Q 140 247 166 257 Q 140 267 114 257Z" fill="#d8d0f5"/>
+            <!-- Head -->
+            <circle cx="140" cy="112" r="63" fill="#243e63"/>
+            <!-- Ear tufts -->
+            <polygon points="107,66 92,22 122,60" fill="#1a2d4a"/>
+            <polygon points="173,66 188,22 158,60" fill="#1a2d4a"/>
+            <!-- Facial disc -->
+            <ellipse cx="140" cy="116" rx="50" ry="46" fill="#2e4a6b"/>
+            <!-- Eye whites -->
+            <circle cx="116" cy="108" r="22" fill="white"/>
+            <circle cx="164" cy="108" r="22" fill="white"/>
+            <!-- Irises -->
+            <circle cx="116" cy="108" r="16" fill="#6415ff"/>
+            <circle cx="164" cy="108" r="16" fill="#6415ff"/>
+            <!-- Pupils -->
+            <circle cx="116" cy="108" r="8" fill="#0d0020"/>
+            <circle cx="164" cy="108" r="8" fill="#0d0020"/>
+            <!-- Catchlights -->
+            <circle cx="110" cy="102" r="4" fill="white"/>
+            <circle cx="158" cy="102" r="4" fill="white"/>
+            <!-- Beak -->
+            <path d="M 133 126 L 140 141 L 147 126 Z" fill="#f6c343"/>
+            <!-- Graduation cap body -->
+            <rect x="118" y="44" width="44" height="20" rx="4" fill="#0d0020"/>
+            <!-- Cap plate -->
+            <rect x="88" y="34" width="104" height="14" rx="3" fill="#0d0020" transform="rotate(-2 88 34)"/>
+            <!-- Tassel -->
+            <line x1="188" y1="41" x2="200" y2="64" stroke="#f6c343" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="200" cy="68" r="5" fill="#f6c343"/>
+            <!-- Left foot -->
+            <rect x="112" y="278" width="9" height="20" rx="4" fill="#5a3820"/>
+            <rect x="100" y="284" width="9" height="17" rx="4" fill="#5a3820" transform="rotate(-22 100 284)"/>
+            <rect x="123" y="284" width="9" height="17" rx="4" fill="#5a3820" transform="rotate(22 123 284)"/>
+            <!-- Right foot -->
+            <rect x="159" y="278" width="9" height="20" rx="4" fill="#5a3820"/>
+            <rect x="147" y="284" width="9" height="17" rx="4" fill="#5a3820" transform="rotate(-22 147 284)"/>
+            <rect x="170" y="284" width="9" height="17" rx="4" fill="#5a3820" transform="rotate(22 170 284)"/>
+          </svg>
         </div>
       </div>
     </section>
@@ -301,7 +439,7 @@
       </div>
       <div class="footer__bottom">
         <div class="container footer__legal">
-          <span>© 2018 Treact Inc. All Rights Reserved.</span>
+          <span>© 2026 Treact Inc. All Rights Reserved.</span>
           <div class="footer__legal-links">
             <a href="#">GDPR</a>
             <a href="#">Privacy Policy</a>
